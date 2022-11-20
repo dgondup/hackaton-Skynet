@@ -1,5 +1,4 @@
 .before__images{
-  float: left;
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 1200px;
+  height: 800px;
 }

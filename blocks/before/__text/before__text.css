@@ -1,6 +1,6 @@
 .before__text{
-  padding-top: 25%;
-  max-width: 400px;
+  padding: 25% 25px 0;
+  max-width: 300px;
   background-color: rgba(255, 255, 255, 0.6);
   position: absolute;
   z-index: 2;

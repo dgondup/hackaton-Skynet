@@ -1,7 +1,9 @@
 .before__button{
-  height: 20px;
-  width: 20px;
-  background-color: brown;
-  z-index: 4;
-  display: inline-block;
+  position: absolute;
+  color: blue;
+  background: none;
+  border: none;
+  z-index: 2;
+  top: 0px;
+  width: 100px;
 }

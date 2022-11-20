@@ -1,5 +1,5 @@
 .before__images{
-  max-width: 100%;
-  position: relative;
+  float: left;
+  max-width: 1200px;
   margin: 0 auto;
 }

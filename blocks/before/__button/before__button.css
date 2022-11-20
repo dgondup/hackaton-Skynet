@@ -1,0 +1,7 @@
+.before__button{
+  height: 20px;
+  width: 20px;
+  background-color: brown;
+  z-index: 4;
+  display: inline-block;
+}

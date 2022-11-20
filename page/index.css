@@ -1,2 +1,10 @@
 @import url("../vendors/normalize.css");
 @import url("../blocks/root/root.css");
+
+@import url(../blocks/before/before.css);
+@import url(../blocks/before/__content/before__content.css);
+@import url(../blocks/before/__credit/before__credit.css);
+@import url(../blocks/before/__images/before__images.css);
+@import url(../blocks/before/__text/before__text.css);
+@import url(../blocks/before/__title/before__title.css);
+

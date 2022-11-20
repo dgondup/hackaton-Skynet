@@ -1,0 +1,6 @@
+.before__title{
+  text-transform: capitalize;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}

@@ -1,9 +1,6 @@
 .before__content{
-  clear: both;
   position: relative;
   max-width: 1200px;
   max-height: 800px;
   margin: 5px auto;
-  transition: left 2s;
-  overflow: hidden;
 }

@@ -2,6 +2,6 @@
   font-size: 5em;
   grid-area: title;
   margin: 0;
-  padding-top: 0.5em;
-  color: ivory;
+  padding: 0.8em 0;
+  background-color: rgba(255, 255, 255, 0.5);
 }

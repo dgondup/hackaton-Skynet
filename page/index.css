@@ -1,5 +1,5 @@
-@import url("../vendors/normalize.css");
-@import url("../blocks/root/root.css");
+@import url(../vendors/normalize.css);
+@import url(../blocks/root/root.css);
 
 @import url(../blocks/before/before.css);
 @import url(../blocks/before/__content/before__content.css);
@@ -11,6 +11,12 @@
 @import url(../blocks/before/__button/before__button-prev.css);
 @import url(../blocks/before/__button/before__button.css);
 @import url(../blocks/before/__slider/before__slider.css);
+
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__area/slider__area.css);
+@import url(../blocks/slider/__button/slider__button-next.css);
+@import url(../blocks/slider/__button/slider__button-prev.css);
+@import url(../blocks/slider/__button/slider__button.css);
 
 @import url(../blocks/fade/fade.css);
 

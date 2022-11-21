@@ -1,4 +1,5 @@
 .header__slider {
   image-rendering: crisp-edges;
   grid-area: slider;
+  background-color: #402a2a;
 }

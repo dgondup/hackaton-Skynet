@@ -1,7 +1,4 @@
-//codigo para el header de la pagina
-
-/*const slides = document.getElementsByClassName("before__content");
-const buttons = document.querySelectorAll("before__button");
+const slides = document.getElementsByClassName("header__slider");
 
 let currentSlide = 0;
 
@@ -16,7 +13,7 @@ const transitionSlides = () => {
   slides[currentSlide - 1].style.display = "block";
 };
 
-setInterval(transitionSlides, 3500);*/
+setInterval(transitionSlides, 3500);
 
 const scrollerArea = document.querySelector(".slider__area");
 

@@ -1,18 +1,17 @@
 .header {
-  background-color: #4e83c6e8;
+  background-color: steelblue;
   width: 1200px;
   overflow: hidden;
-  margin: 0 auto;
-  padding-left: 20px;
+  margin: auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: auto;
   grid-template-areas:
   "title slider" 
   "subtitle slider";
-  grid-column-gap: 20px;
-  background-image: url('../../../images/header/MexicoUS.jpg');
-  background-position: right;
-  background-size: contain;
-  background-repeat: repeat-x;
+  /* background-image: url('../../../images/header/MexicoUS.jpg');
+  background-position: left;
+  background-size: 50%;
+  background-repeat: no-repeat; */
+  text-align: center;
 }

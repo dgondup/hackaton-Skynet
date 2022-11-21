@@ -1,0 +1,4 @@
+.header__slider {
+  image-rendering: crisp-edges;
+  grid-area: slider;
+}

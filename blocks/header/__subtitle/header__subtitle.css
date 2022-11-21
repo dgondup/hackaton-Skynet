@@ -1,0 +1,7 @@
+.header__subtitle {
+  grid-area: subtitle;
+  align-self: end;
+  text-align: right;
+  line-height: 1.4;
+  color: #3e0000;
+}

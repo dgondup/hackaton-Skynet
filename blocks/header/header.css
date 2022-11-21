@@ -1,0 +1,14 @@
+.header {
+  background-color: #4e83c6e8;
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 0 20px 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "title slider" 
+  "subtitle slider";
+  grid-column-gap: 20px;
+}

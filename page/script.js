@@ -29,9 +29,9 @@ const sliderWidth = sliderDimensions.width;
 console.log(sliderWidth);
 
 prvBtn.addEventListener("click", () => {
-  scrollerArea.scrollLeft += sliderWidth;
+  scrollerArea.scrollLeft -= sliderWidth;
 });
 
 nxtBtn.addEventListener("click", () => {
-  scrollerArea.scrollLeft -= sliderWidth;
+  scrollerArea.scrollLeft += sliderWidth;
 });

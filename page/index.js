@@ -1,4 +1,6 @@
 const slides = document.getElementsByClassName("header__slider");
+const spaBtn = document.querySelector("#spa");
+const engBtn = document.querySelector("#eng");
 
 let currentSlide = 0;
 

@@ -23,8 +23,6 @@ const prvBtn = document.querySelector("#prev-btn");
 const sliderDimensions = scrollerArea.getBoundingClientRect();
 const sliderWidth = sliderDimensions.width;
 
-console.log(sliderWidth);
-
 prvBtn.addEventListener("click", () => {
   scrollerArea.scrollLeft += sliderWidth;
 });

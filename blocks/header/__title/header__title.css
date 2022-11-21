@@ -3,8 +3,5 @@
   grid-area: title;
   margin: 0;
   padding-top: 0.5em;
-  background-image: url('../../../images/header/MexicoUS.jpg');
-  background-position: top;
-  background-size: cover;
   color: ivory;
 }

@@ -24,5 +24,18 @@
 @import url(../blocks/slider/__button/slider__button-prev.css);
 @import url(../blocks/slider/__button/slider__button.css);
 
+@import url(../blocks/closer/closer.css);
+@import url(../blocks/closer/__card/closer__card.css);
+@import url(../blocks/closer/__card-area/closer__card-area.css);
+@import url(../blocks/closer/__card-slide/closer__card-slide_crop.css);
+@import url(../blocks/closer/__content/closer__content.css);
+@import url(../blocks/closer/__credit/closer__credit.css);
+@import url(../blocks/closer/__images/closer__images.css);
+@import url(../blocks/closer/__subtitle/closer__subtitle.css);
+@import url(../blocks/closer/__text/closer__text.css);
+@import url(../blocks/closer/__title/closer__title.css);
+@import url(../blocks/closer/__card-slide/closer__card-slide.css);
+
+
 @import url(../blocks/fade/fade.css);
 

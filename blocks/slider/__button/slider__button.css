@@ -1,9 +1,7 @@
 .slider__button{
   position: absolute;
   color: blue;
-  background: none;
-  border: none;
-  z-index: 2;
+  z-index: 4;
   top: 0px;
   width: 100px;
 }

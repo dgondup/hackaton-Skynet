@@ -16,4 +16,22 @@ const transitionSlides = () => {
   slides[currentSlide - 1].style.display = "block";
 };
 
-setInterval(transitionSlides, 5000);*/
+setInterval(transitionSlides, 3500);*/
+
+const scrollerArea = document.querySelector(".slider__area");
+
+const nxtBtn = document.querySelector("#next-btn");
+const prvBtn = document.querySelector("#prev-btn");
+
+const sliderDimensions = scrollerArea.getBoundingClientRect();
+const sliderWidth = sliderDimensions.width;
+
+console.log(sliderWidth);
+
+prvBtn.addEventListener("click", () => {
+  scrollerArea.scrollLeft += sliderWidth;
+});
+
+nxtBtn.addEventListener("click", () => {
+  scrollerArea.scrollLeft -= sliderWidth;
+});

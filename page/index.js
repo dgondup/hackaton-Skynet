@@ -33,7 +33,8 @@ nxtBtn.addEventListener("click", () => {
   scrollerArea.scrollLeft -= sliderWidth;
 });
 
-
-const selectMex = () =>{
-  if (mexBtn)
-}
+const selectMex = () => {
+  if (mexBtn) {
+    console.log("hi");
+  }
+};

@@ -38,9 +38,10 @@ scrollerArea.forEach((section, i) => {
 });
 
 const selectCountry = (id, loc) => {
+  console.log(id, loc);
   if (id === "lam") {
     countryArea[loc].classList.remove("slider_inactive");
-    countryArea[(2, 4)].classList.add("slider_inactive");
+    countryArea[loc + 1].classList.add("slider_inactive");
   }
   if (id === "eua") {
     countryArea[loc - 1].classList.add("slider_inactive");
@@ -53,7 +54,7 @@ for (i = 0; i < countryBtn.length; i++) {
   countryBtn[i].addEventListener("click", (i) => {
     console.log(i.target);
     let country = i.target.id;
-    let loc = i.target.value;
+    let loc = parseFloat(i.target.value);
     selectCountry(country, loc);
   });
 }

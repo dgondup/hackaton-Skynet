@@ -26,31 +26,37 @@ scrollerArea.forEach((section, i) => {
   let sliderDimensions = section.getBoundingClientRect();
   let sliderWidth = sliderDimensions.width;
 
-  prvBtn[i].addEventListener("click", () => {
-    section.scrollLeft += sliderWidth;
+  prvBtn[i].addEventListener("click", (evt) => {
+    section.scrollLeft -= sliderWidth;
+    console.log(evt.target);
   });
 
-  nxtBtn[i].addEventListener("click", () => {
-    section.scrollLeft -= sliderWidth;
+  nxtBtn[i].addEventListener("click", (evt) => {
+    section.scrollLeft += sliderWidth;
+    console.log(evt.target);
   });
 });
 
-const selectCountry = (i) => {
-  console.log(i.path[0]);
-  if (i.path[0].id === "lam") {
-    countryArea[2].style.display = "none";
-    countryArea[1].style.display = "block";
+const selectCountry = (id, loc) => {
+  console.log(countryArea);
+
+  if (id === "lam") {
+    let po = loc + 1;
+    countryArea[loc].classList.remove("slider_inactive");
+    countryArea[2].classList.add("slider_inactive");
   }
-  if (i.path[0].id === "usa") {
-    countryArea[1].style.display = "none";
-    countryArea[2].style.display = "block";
+  if (id === "eua") {
+    countryArea[loc - 1].classList.add("slider_inactive");
+    countryArea[loc].classList.remove("slider_inactive");
   }
 };
 
 console.log(countryBtn);
-for (i = 0; i < mexBtn.length; i++) {
-  mexBtn[i].addEventListener("click", selectCountry);
-}
-for (i = 0; i < usaBtn.length; i++) {
-  usaBtn[i].addEventListener("click", selectCountry);
+for (i = 0; i < countryBtn.length; i++) {
+  countryBtn[i].addEventListener("click", (i) => {
+    console.log(i.target);
+    let country = i.target.id;
+    let loc = i.target.value;
+    selectCountry(country, loc);
+  });
 }

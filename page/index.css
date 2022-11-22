@@ -19,6 +19,7 @@
 @import url(../blocks/before/__slider/before__slider.css);
 
 @import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/slider_inactive.css);
 @import url(../blocks/slider/__area/slider__area.css);
 @import url(../blocks/slider/__button/slider__button-next.css);
 @import url(../blocks/slider/__button/slider__button-prev.css);

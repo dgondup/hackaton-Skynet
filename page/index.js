@@ -1,6 +1,9 @@
 const slides = document.getElementsByClassName("header__slider");
 const mexBtn = document.querySelector("#lam");
-const usaBtn = document.querySelector("#usa");
+const usaBtn = document.querySelector("#eua");
+const nxtBtn = [...document.querySelectorAll("#next-btn")];
+const prvBtn = [...document.querySelectorAll("#prev-btn")];
+const scrollerArea = [...document.querySelectorAll(".slider__area")];
 
 let currentSlide = 0;
 
@@ -17,26 +20,33 @@ const transitionSlides = () => {
 
 setInterval(transitionSlides, 3500);
 
-const scrollerArea = [...document.querySelectorAll(".slider__area")];
-
-const nxtBtn = [...document.querySelectorAll("#next-btn")];
-const prvBtn = [...document.querySelectorAll("#prev-btn")];
-
-scrollerArea.forEach((item, i) => {
-  let sliderDimensions = item.getBoundingClientRect();
+scrollerArea.forEach((section, i) => {
+  let sliderDimensions = section.getBoundingClientRect();
   let sliderWidth = sliderDimensions.width;
 
   prvBtn[i].addEventListener("click", () => {
-    item.scrollLeft += sliderWidth;
+    section.scrollLeft += sliderWidth;
   });
 
   nxtBtn[i].addEventListener("click", () => {
-    item.scrollLeft -= sliderWidth;
+    section.scrollLeft -= sliderWidth;
   });
 });
 
-const selectMex = () => {
-  if (mexBtn) {
-    console.log("hi");
+const countryArea = [...document.querySelectorAll(".slider")];
+console.log(countryArea);
+
+const selectCountry = (a) => {
+  console.log(a.target.id);
+  if (a.target.id === "lam") {
+    countryArea[2].style.display = "none";
+    countryArea[1].style.display = "block";
+  }
+  if (a.target.id === "eua") {
+    countryArea[1].style.display = "none";
+    countryArea[2].style.display = "block";
   }
 };
+
+mexBtn.addEventListener("click", selectCountry);
+usaBtn.addEventListener("click", selectCountry);

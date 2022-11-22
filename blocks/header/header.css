@@ -1,6 +1,7 @@
 .header {
   background-color: steelblue;
-  width: 1200px;
+  height: auto;
+  max-width: 1200px;
   overflow: hidden;
   margin: auto;
   display: grid;

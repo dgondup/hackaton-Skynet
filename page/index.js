@@ -17,20 +17,22 @@ const transitionSlides = () => {
 
 setInterval(transitionSlides, 3500);
 
-const scrollerArea = document.querySelector(".slider__area");
+const scrollerArea = [...document.querySelectorAll(".slider__area")];
 
-const nxtBtn = document.querySelector("#next-btn");
-const prvBtn = document.querySelector("#prev-btn");
+const nxtBtn = [...document.querySelectorAll("#next-btn")];
+const prvBtn = [...document.querySelectorAll("#prev-btn")];
 
-const sliderDimensions = scrollerArea.getBoundingClientRect();
-const sliderWidth = sliderDimensions.width;
+scrollerArea.forEach((item, i) => {
+  let sliderDimensions = item.getBoundingClientRect();
+  let sliderWidth = sliderDimensions.width;
 
-prvBtn.addEventListener("click", () => {
-  scrollerArea.scrollLeft += sliderWidth;
-});
+  prvBtn[i].addEventListener("click", () => {
+    item.scrollLeft += sliderWidth;
+  });
 
-nxtBtn.addEventListener("click", () => {
-  scrollerArea.scrollLeft -= sliderWidth;
+  nxtBtn[i].addEventListener("click", () => {
+    item.scrollLeft -= sliderWidth;
+  });
 });
 
 const selectMex = () => {

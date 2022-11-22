@@ -37,6 +37,8 @@
 @import url(../blocks/closer/__card-slide/closer__card-slide.css);
 
 @import url(../blocks/flag/flag.css);
+@import url(../blocks/flag/_country/flag_country_mex.css);
+@import url(../blocks/flag/_country/flag_country_usa.css);
 
 @import url(../blocks/fade/fade.css);
 
@@ -47,3 +49,6 @@
 @import url(../blocks/during/__slider/during__slider.css);
 @import url(../blocks/during/__text/during__text.css);
 @import url(../blocks/during/__title/during__title.css);
+@import url(../blocks/during/__button/during__button.css);
+@import url(../blocks/during/__button/_pos/during__button_pos_left.css);
+@import url(../blocks/during/__button/_pos/during__button_pos_right.css);

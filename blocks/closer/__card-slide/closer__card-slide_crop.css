@@ -1,3 +1,9 @@
 .closer__card-slide_crop{
   clip-path: polygon(35% 0, 100% 0, 100% 100%, 0% 100%);
 }
+
+@media (width<1120px) {
+  .closer__card-slide_crop{
+    clip-path: none;
+  } 
+}

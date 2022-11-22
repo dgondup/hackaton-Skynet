@@ -32,3 +32,22 @@
   transform: translate(-250px,0);
   /*right: 0;*/
 }
+
+@media (width < 1214px) {
+  .closer__card-slide:nth-child(1):hover {
+    transform: translate(0,0);
+  }
+}
+@media (width < 1120px) {
+  .closer__card-slide:nth-child(1n):hover {
+    transform: translate(0,0);
+  }
+  .closer__card-slide:nth-child(1n) {
+    right: 0;
+  }
+  .closer__card-slide{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+}

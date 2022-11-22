@@ -9,3 +9,11 @@
 .closer__credit:nth-child(2){
   left: 220px;
 }
+
+@media (width<1120px) {
+  .closer__credit:nth-child(1n) {
+    z-index: 2;
+    left: 5%;
+  }
+  
+}

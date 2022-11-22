@@ -1,3 +1,4 @@
 .slider_inactive{
   height: 0;
+  visibility: hidden;
 }

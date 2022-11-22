@@ -7,12 +7,19 @@
   font-weight: 400;
 }
 
+@media (width<800) {
+  .closer__subtitle{
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+  
+}
+
 @media (width<600px) {
   .closer__subtitle{
     max-width: none;
     width: 100%;
     padding: 25px;
     text-align: center;
-  }
-  
+  } 
 }

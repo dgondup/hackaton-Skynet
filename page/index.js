@@ -38,12 +38,9 @@ scrollerArea.forEach((section, i) => {
 });
 
 const selectCountry = (id, loc) => {
-  console.log(countryArea);
-
   if (id === "lam") {
-    let po = loc + 1;
     countryArea[loc].classList.remove("slider_inactive");
-    countryArea[2].classList.add("slider_inactive");
+    countryArea[(2, 4)].classList.add("slider_inactive");
   }
   if (id === "eua") {
     countryArea[loc - 1].classList.add("slider_inactive");

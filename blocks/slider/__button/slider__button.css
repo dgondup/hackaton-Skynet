@@ -4,10 +4,11 @@
   z-index: 4;
   top: 0px;
   width: 50px;
-  transition: background-color .5s;
+  transition: background 1s;
+  background: white;
 }
 
 .slider__button:hover {
   cursor: pointer;
-  background-color: teal;
+  background: teal;
 }

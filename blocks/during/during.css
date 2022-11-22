@@ -1,0 +1,10 @@
+.during {
+  background-color: steelblue;
+  max-width: 1200px;
+  height: auto;
+  max-height: 900px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}

@@ -1,6 +1,13 @@
 @import url(../vendors/normalize.css);
 @import url(../blocks/root/root.css);
 
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__slider/header__slider.css);
+@import url(../blocks/header/__slider-image/header__slider-image.css);
+@import url(../blocks/header/__credit/header__credit.css);
+
 @import url(../blocks/before/before.css);
 @import url(../blocks/before/__content/before__content.css);
 @import url(../blocks/before/__credit/before__credit.css);
@@ -13,10 +20,46 @@
 @import url(../blocks/before/__slider/before__slider.css);
 
 @import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/slider_inactive.css);
 @import url(../blocks/slider/__area/slider__area.css);
 @import url(../blocks/slider/__button/slider__button-next.css);
 @import url(../blocks/slider/__button/slider__button-prev.css);
 @import url(../blocks/slider/__button/slider__button.css);
 
+@import url(../blocks/closer/closer.css);
+@import url(../blocks/closer/__card/closer__card.css);
+@import url(../blocks/closer/__card-area/closer__card-area.css);
+@import url(../blocks/closer/__card-slide/closer__card-slide_crop.css);
+@import url(../blocks/closer/__content/closer__content.css);
+@import url(../blocks/closer/__credit/closer__credit.css);
+@import url(../blocks/closer/__images/closer__images.css);
+@import url(../blocks/closer/__subtitle/closer__subtitle.css);
+@import url(../blocks/closer/__text/closer__text.css);
+@import url(../blocks/closer/__title/closer__title.css);
+@import url(../blocks/closer/__card-slide/closer__card-slide.css);
+
+@import url(../blocks/flag/flag.css);
+@import url(../blocks/flag/_country/flag_country_mex.css);
+@import url(../blocks/flag/_country/flag_country_usa.css);
+
 @import url(../blocks/fade/fade.css);
 
+@import url(../blocks/during/during.css);
+@import url(../blocks/during/__content/during__content.css);
+@import url(../blocks/during/__credit/during__credit.css);
+@import url(../blocks/during/__images/during__images.css);
+@import url(../blocks/during/__slider/during__slider.css);
+@import url(../blocks/during/__text/during__text.css);
+@import url(../blocks/during/__title/during__title.css);
+@import url(../blocks/during/__button/during__button.css);
+@import url(../blocks/during/__button/_pos/during__button_pos_left.css);
+@import url(../blocks/during/__button/_pos/during__button_pos_right.css);
+
+@import url(../blocks/after/after.css);
+@import url(../blocks/after/__title/after__title.css);
+@import url(../blocks/after/__button/after__button.css);
+@import url(../blocks/after/__button/_pos/after__button_pos_left.css);
+@import url(../blocks/after/__button/_pos/after__button_pos_right.css);
+@import url(../blocks/after/__content/after__content.css);
+@import url(../blocks/after/__text/after__text.css);
+@import url(../blocks/after/__credit/after__credit.css);

@@ -1,0 +1,9 @@
+.header__title {
+  font-size: 4.8em;
+  grid-area: title;
+  margin: 0;
+  padding: 0.5em 0.2em;
+  background-color: rgba(255, 255, 255, 0.5);
+  line-height: 1.6;
+  text-align: left;
+}

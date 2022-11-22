@@ -1,0 +1,11 @@
+.after__text {
+  padding: 25% 25px 0;
+  max-width: 300px;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  z-index: 2;
+  height: 800px;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  font-weight: 400;
+}

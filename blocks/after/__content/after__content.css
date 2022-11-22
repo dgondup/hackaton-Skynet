@@ -1,0 +1,7 @@
+.after__content {
+  position: relative;
+  max-width: 1200px;
+  max-height: 800px;
+  height: auto;
+  margin: 0;
+}

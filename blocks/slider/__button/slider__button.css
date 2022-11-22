@@ -3,5 +3,12 @@
   color: blue;
   z-index: 4;
   top: 0px;
-  width: 100px;
+  width: 50px;
+  transition: background 1s;
+  background: white;
+}
+
+.slider__button:hover {
+  cursor: pointer;
+  background: teal;
 }

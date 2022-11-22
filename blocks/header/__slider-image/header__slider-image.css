@@ -1,4 +1,5 @@
 .header__slider-image {
-  width: 100%;
+  width: auto;
+  max-height: 600px;
   height: 100%;
 }

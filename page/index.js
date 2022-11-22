@@ -1,6 +1,8 @@
 const slides = document.getElementsByClassName("header__slider");
-const mexBtn = document.querySelector("#lam");
-const usaBtn = document.querySelector("#eua");
+const mexBtn = [...document.querySelectorAll("#lam")];
+const usaBtn = [...document.querySelectorAll("#usa")];
+const countryBtn = [...document.querySelectorAll(".flag")];
+const countryArea = [...document.querySelectorAll(".slider")];
 const nxtBtn = [...document.querySelectorAll("#next-btn")];
 const prvBtn = [...document.querySelectorAll("#prev-btn")];
 const scrollerArea = [...document.querySelectorAll(".slider__area")];
@@ -33,20 +35,22 @@ scrollerArea.forEach((section, i) => {
   });
 });
 
-const countryArea = [...document.querySelectorAll(".slider")];
-console.log(countryArea);
-
-const selectCountry = (a) => {
-  console.log(a.target.id);
-  if (a.target.id === "lam") {
+const selectCountry = (i) => {
+  console.log(i.path[0]);
+  if (i.path[0].id === "lam") {
     countryArea[2].style.display = "none";
     countryArea[1].style.display = "block";
   }
-  if (a.target.id === "eua") {
+  if (i.path[0].id === "usa") {
     countryArea[1].style.display = "none";
     countryArea[2].style.display = "block";
   }
 };
 
-mexBtn.addEventListener("click", selectCountry);
-usaBtn.addEventListener("click", selectCountry);
+console.log(countryBtn);
+for (i = 0; i < mexBtn.length; i++) {
+  mexBtn[i].addEventListener("click", selectCountry);
+}
+for (i = 0; i < usaBtn.length; i++) {
+  usaBtn[i].addEventListener("click", selectCountry);
+}

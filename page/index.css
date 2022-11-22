@@ -6,6 +6,7 @@
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__slider/header__slider.css);
 @import url(../blocks/header/__slider-image/header__slider-image.css);
+@import url(../blocks/header/__credit/header__credit.css);
 
 @import url(../blocks/before/before.css);
 @import url(../blocks/before/__content/before__content.css);
@@ -53,3 +54,12 @@
 @import url(../blocks/during/__button/during__button.css);
 @import url(../blocks/during/__button/_pos/during__button_pos_left.css);
 @import url(../blocks/during/__button/_pos/during__button_pos_right.css);
+
+@import url(../blocks/after/after.css);
+@import url(../blocks/after/__title/after__title.css);
+@import url(../blocks/after/__button/after__button.css);
+@import url(../blocks/after/__button/_pos/after__button_pos_left.css);
+@import url(../blocks/after/__button/_pos/after__button_pos_right.css);
+@import url(../blocks/after/__content/after__content.css);
+@import url(../blocks/after/__text/after__text.css);
+@import url(../blocks/after/__credit/after__credit.css);

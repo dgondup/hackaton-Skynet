@@ -1,0 +1,8 @@
+.closer{
+  background-color: steelblue;
+  width: 1200px;
+  height: 900px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+}

@@ -1,4 +1,6 @@
 const slides = document.getElementsByClassName("header__slider");
+const mexBtn = document.querySelector("#lam");
+const usaBtn = document.querySelector("#usa");
 
 let currentSlide = 0;
 
@@ -30,3 +32,8 @@ prvBtn.addEventListener("click", () => {
 nxtBtn.addEventListener("click", () => {
   scrollerArea.scrollLeft -= sliderWidth;
 });
+
+
+const selectMex = () =>{
+  if (mexBtn)
+}

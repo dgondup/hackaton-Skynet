@@ -1,6 +1,7 @@
 .header__slider {
-  image-rendering: crisp-edges;
+  /*image-rendering: crisp-edges;*/
   grid-area: slider;
   background-color: #402a2a;
   position: relative;
+  height: max-content;
 }

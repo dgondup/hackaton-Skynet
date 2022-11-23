@@ -1,8 +1,8 @@
-.before__title{
+.before__title {
   font-size: 3rem;
   line-height: 2;
   font-weight: 800;
-  text-transform: capitalize;
+  text-transform: uppercase;
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;

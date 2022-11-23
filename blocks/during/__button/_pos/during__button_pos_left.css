@@ -4,8 +4,14 @@
   border-radius: 0 50% 50% 0;
 }
 
-@media (width<530px) {
+@media (width<650px) {
   .during__button_pos_left {
     top: 35px;
+  }
+}
+
+@media (width<530px) {
+  .during__button_pos_left {
+    top: 20px;
   }
 }

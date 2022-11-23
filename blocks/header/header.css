@@ -54,7 +54,7 @@
       "title   " 
       "subtitle" 
       "slider  ";
-    grid-template-rows: 0.5fr 0.3fr 1fr;
+    grid-template-rows: 0.5fr 0.3fr;
   }
   
 }

@@ -4,8 +4,25 @@
   background-color: rgba(255, 255, 255, 0.6);
   position: absolute;
   z-index: 2;
-  height: 800px;
+  height: 100%;
   font-size: 1.4rem;
   line-height: 1.6;
   font-weight: 400;
+}
+
+@media (width<1200px) {
+  .after__text {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+}
+
+@media (width<600px) {
+  .after__text {
+    font-size: 0.8rem;
+    max-width: none;
+    width: 100%;
+    padding: 25% 25px 0;
+    text-align: center;
+  }
 }

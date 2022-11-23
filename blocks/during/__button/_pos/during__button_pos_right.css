@@ -3,3 +3,9 @@
   right: 0;
   border-radius: 50% 0 0 50%;
 }
+
+@media (width<530px) {
+  .during__button_pos_right {
+    top: 35px;
+  }
+}

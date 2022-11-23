@@ -11,20 +11,14 @@
 
 @media (width<900px) {
   .closer__title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 1.2;
     padding: 25px;
   }
 }
 
-@media (width<600px) {
-  .closer__title {
-    font-size: 2rem;
-  }
-}
-
 @media (width<450px) {
   .closer__title {
-    font-size: 1.7rem;
+    font-size: 1.1rem;
   }
 }

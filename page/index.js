@@ -62,8 +62,8 @@ scrollerArea.forEach((section, i) => {
 
 const windowResize = () => {
   scrolledImage.forEach((img) => {
+    img.width = window.innerWidth - 19;
     console.log(img);
-    img.width = window.innerWidth;
     return (imageWidth = img.width);
   });
 };

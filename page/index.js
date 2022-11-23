@@ -51,9 +51,6 @@ for (i = 0; i < countryBtn.length; i++) {
 }
 
 scrollerArea.forEach((section, i) => {
-  //let sliderDimensions = section.getBoundingClientRect();
-  //let sliderWidth = sliderDimensions.width;
-
   prvBtn[i].addEventListener("click", () => {
     section.scrollLeft -= imageWidth;
   });

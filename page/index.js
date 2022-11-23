@@ -7,7 +7,11 @@ const nxtBtn = [...document.querySelectorAll("#next-btn")];
 const prvBtn = [...document.querySelectorAll("#prev-btn")];
 const scrollerArea = [...document.querySelectorAll(".slider__area")];
 
+const scrolledImage = [...document.querySelectorAll("#slide-img")];
+
 let currentSlide = 0;
+
+let imageWidth;
 
 const transitionSlides = () => {
   for (let i = 0; i < slides.length; i++) {
@@ -22,20 +26,7 @@ const transitionSlides = () => {
 
 setInterval(transitionSlides, 3500);
 
-scrollerArea.forEach((section, i) => {
-  let sliderDimensions = section.getBoundingClientRect();
-  let sliderWidth = sliderDimensions.width;
-
-  prvBtn[i].addEventListener("click", (evt) => {
-    section.scrollLeft -= sliderWidth;
-    console.log(evt.target);
-  });
-
-  nxtBtn[i].addEventListener("click", (evt) => {
-    section.scrollLeft += sliderWidth;
-    console.log(evt.target);
-  });
-});
+console.log(scrollerArea);
 
 const selectCountry = (id, loc) => {
   console.log(id, loc);
@@ -58,3 +49,26 @@ for (i = 0; i < countryBtn.length; i++) {
     selectCountry(country, loc);
   });
 }
+
+scrollerArea.forEach((section, i) => {
+  //let sliderDimensions = section.getBoundingClientRect();
+  //let sliderWidth = sliderDimensions.width;
+
+  prvBtn[i].addEventListener("click", () => {
+    section.scrollLeft -= imageWidth;
+  });
+
+  nxtBtn[i].addEventListener("click", () => {
+    section.scrollLeft += imageWidth;
+  });
+});
+
+const windowResize = () => {
+  scrolledImage.forEach((img) => {
+    console.log(img);
+    img.width = window.innerWidth;
+    return (imageWidth = img.width);
+  });
+};
+
+window.addEventListener("resize", windowResize);

@@ -5,3 +5,12 @@
   height: auto;
   margin: 0;
 }
+
+@media (width<600px) {
+  .during__content {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    max-height: none;
+  }
+}

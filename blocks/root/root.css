@@ -1,7 +1,10 @@
-* {
+.root {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*background-color: #183d5b;*/
+  background-image: url(../../images/cdc-fondo.jpg);
+  z-index: 10;
+  background-position: center;
+  background-size: contain;
 }
 

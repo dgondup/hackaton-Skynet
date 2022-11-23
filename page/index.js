@@ -11,6 +11,8 @@ const scrolledImage = [...document.querySelectorAll("#slide-img")];
 
 let currentSlide = 0;
 
+let imageWidth;
+
 const transitionSlides = () => {
   for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
@@ -49,15 +51,15 @@ for (i = 0; i < countryBtn.length; i++) {
 }
 
 scrollerArea.forEach((section, i) => {
-  let sliderDimensions = section.getBoundingClientRect();
-  let sliderWidth = sliderDimensions.width;
+  //let sliderDimensions = section.getBoundingClientRect();
+  //let sliderWidth = sliderDimensions.width;
 
   prvBtn[i].addEventListener("click", () => {
-    section.scrollLeft -= sliderWidth;
+    section.scrollLeft -= imageWidth;
   });
 
   nxtBtn[i].addEventListener("click", () => {
-    section.scrollLeft += sliderWidth;
+    section.scrollLeft += imageWidth;
   });
 });
 
@@ -65,6 +67,7 @@ const windowResize = () => {
   scrolledImage.forEach((img) => {
     console.log(img);
     img.width = window.innerWidth;
+    return (imageWidth = img.width);
   });
 };
 

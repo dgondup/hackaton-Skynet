@@ -63,6 +63,7 @@
 @import url(../blocks/after/__content/after__content.css);
 @import url(../blocks/after/__text/after__text.css);
 @import url(../blocks/after/__credit/after__credit.css);
+@import url(../blocks/after/__images/after__images.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__member/footer__member.css);

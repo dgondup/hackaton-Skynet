@@ -1,0 +1,11 @@
+@media (width<390px) {
+  .during__text_long{
+    padding-top: 50px;
+  }
+}
+
+@media (width<340px) {
+  .during__text_long{
+    padding-top: 35px;
+  }
+}

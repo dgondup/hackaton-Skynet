@@ -19,9 +19,21 @@
 
 @media (width<600px) {
   .during__text {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     max-width: none;
     width: 100%;
     text-align: center;
+  }
+}
+
+@media (width<500px) {
+  .during__text{
+    font-size: 1rem;
+  }
+}
+
+@media (width<350px) {
+  .during__text{
+    padding-top: 50px;
   }
 }

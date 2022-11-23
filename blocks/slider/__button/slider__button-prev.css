@@ -2,7 +2,7 @@
   left: 20rem;
 }
 
-@media (width<640px) {
+@media (width<600px) {
   .slider__button-prev {
     left: 1rem;
   }

@@ -1,0 +1,16 @@
+.footer__title{
+  padding: 20px;
+  background-color: antiquewhite;
+  height: fit-content;
+  border-radius: 0 15px 15px 0;
+}
+
+@media (width<700px) {
+  .footer__title{
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+}

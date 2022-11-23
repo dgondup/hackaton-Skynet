@@ -1,3 +1,9 @@
-.slider__button-prev{
+.slider__button-prev {
   left: 20rem;
+}
+
+@media (width<640px) {
+  .slider__button-prev {
+    left: 1rem;
+  }
 }

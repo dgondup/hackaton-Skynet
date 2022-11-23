@@ -8,10 +8,18 @@
   font-weight: 600;
 }
 
+@media screen and (width < 958px) {
+  .header__subtitle {
+    text-align: center;
+    padding: 0 0.8em 0.4em;
+  }
+  
+}
+
 @media screen and (width < 700px) {
   .header__subtitle {
     text-align: center;
-    padding: 0 2em;
+    padding: 0 2em 0.2em;
   }
   
 }

@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0.5em 0.2em;
   background-color: rgba(255, 255, 255, 0.5);
-  line-height: 1.6;
+  line-height: 1.35;
   text-align: left;
 }
 
@@ -13,6 +13,14 @@
     font-size: 4em;
     line-height: 1.4;
   }  
+}
+
+@media screen and (width < 958px) {
+  .header__title {
+    text-align: center;
+    padding: 0.2em 0.2em;
+  }
+  
 }
 
 @media screen and (width < 700px) {
@@ -25,7 +33,7 @@
 
 @media screen and (width < 400px) {
   .header__title {
-    font-size: 3.8em;
+    font-size: 3.6em;
     padding: 0.2em 0.2em;
     text-align: center;
     line-height: 1.15;

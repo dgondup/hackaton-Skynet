@@ -22,6 +22,18 @@
   
 }
 
+@media screen and (width < 958px) {
+  .header {
+    grid-template-columns: auto;
+    grid-template-areas:
+      "title   " 
+      "subtitle" 
+      "slider  ";
+    grid-template-rows: 0fr 0.1fr 1fr;
+  }
+  
+}
+
 @media screen and (width < 700px) {
   .header {
     grid-template-columns: auto;

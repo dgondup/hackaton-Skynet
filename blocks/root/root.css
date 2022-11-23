@@ -8,5 +8,7 @@
   background-image: url(../../images/cdc-fondo.jpg);
   background-position: center;
   background-size: contain;
+  font-family: 'Lato';
+  font-weight: 400;
 }
 

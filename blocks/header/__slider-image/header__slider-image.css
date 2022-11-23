@@ -5,7 +5,13 @@
 
 @media screen and (width < 1120px) {
   .header__slider-image {
-    object-fit: cover;
-    object-position: center;
+    
   }  
+}
+
+@media screen and (width < 958px) {
+  .header__slider-image {
+    
+  }
+  
 }

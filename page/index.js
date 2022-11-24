@@ -61,5 +61,5 @@ const windowResize = () => {
     return (imageWidth = img.width);
   });
 };
-
+windowResize();
 window.addEventListener("resize", windowResize);

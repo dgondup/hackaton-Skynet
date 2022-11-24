@@ -18,7 +18,9 @@ El presente proyecto es elaborado por el grupo de trabajo _SKYNET_ como parte de
 
 El proyecto surge como una iniciativa para informar a la presente y futuras generaciones un contexto histórico relevante que fue la Pandemia vivada a partir del 2020 por parte del virus COVID-19, visto desde el punto de vista entre la sinergia de países hermanos como lo es México o Latinoamérica y en Estados Unidos.
 
-La información presente brinda al lector sobre las principales características sociales vividas tanto antes de la pandemia, la vida durante la pandemia y la vida después de la pandemia, desde un aspecto social, laboral y económico, y como estas naciones fueron recuperando poco a poco la sociedad
+La información presente brinda al lector sobre las principales características sociales vividas tanto antes de la pandemia, la vida durante la pandemia y la vida después de la pandemia, desde un aspecto social, laboral y económico, y como estas naciones fueron recuperando poco a poco la sociedad.
+
+En conclusión, se busca incentivar a las comunidades a desarrollo nuevas estrategias para mejorar la economía de sus localidades, presentando algunas estrategias vividas en Latinoamérica durante este periodo de la pandemia.
 
 ## Tecnologías
 

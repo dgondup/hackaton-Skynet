@@ -1,3 +1,13 @@
 .closer__card{
   position: relative;
 }
+
+@media (width < 1120px) {
+  .closer__card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+}

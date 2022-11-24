@@ -1,10 +1,24 @@
-.closer__title{
+.closer__title {
   font-size: 3rem;
   line-height: 2;
   font-weight: 800;
-  text-transform: capitalize;
+  text-transform: uppercase;
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
-  padding: 0;
+  padding: 15px 20px;
+}
+
+@media (width<900px) {
+  .closer__title {
+    font-size: 2rem;
+    line-height: 1.2;
+    padding: 25px;
+  }
+}
+
+@media (width<450px) {
+  .closer__title {
+    font-size: 1.1rem;
+  }
 }

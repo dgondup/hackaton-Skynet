@@ -6,3 +6,16 @@
   z-index: 2;
   padding: 5px;
 }
+
+@media (width<600px) {
+  .after__credit {
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 1rem;
+  }
+}
+
+@media (width<500px) {
+  .after__credit {
+    font-size: .7rem;
+  } 
+}

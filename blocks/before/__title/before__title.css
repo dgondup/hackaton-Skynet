@@ -1,10 +1,35 @@
-.before__title{
+.before__title {
   font-size: 3rem;
   line-height: 2;
   font-weight: 800;
-  text-transform: capitalize;
+  text-transform: uppercase;
   max-width: 1200px;
+  height: 96px;
   margin: 0 auto;
   text-align: center;
   padding: 0;
+}
+
+@media (width<900px) {
+  .before__title {
+    font-size: 2rem;
+    line-height: 1.2;
+    padding: 25px;
+  }
+}
+
+@media (width<650px) {
+  .before__title {
+    font-size: 2rem;
+    width: 350px;
+    height: 120px;
+  }
+}
+
+@media (width<530px) {
+  .before__title {
+    font-size: 1.1rem;
+    width: 250px;
+    height: 90px;
+  }
 }

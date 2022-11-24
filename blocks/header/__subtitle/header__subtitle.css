@@ -7,3 +7,26 @@
   font-size: 1.4rem;
   font-weight: 600;
 }
+
+@media screen and (width < 958px) {
+  .header__subtitle {
+    text-align: center;
+    padding: 1em 0.8em;
+  }
+  
+}
+
+@media screen and (width < 700px) {
+  .header__subtitle {
+    text-align: center;
+    padding: 1em 0.8em;
+  }
+  
+}
+
+@media screen and (width < 400px) {
+  .header__subtitle {
+    text-align: center;
+  }
+  
+}

@@ -3,3 +3,21 @@
   height: 600px;
   overflow: hidden;
 }
+
+@media (width < 1120px) {
+  .closer__card-area{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+}
+
+@media (width<400px) {
+  .closer__card-area{
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, 250px);
+    height: auto;
+
+  }
+  
+}

@@ -4,3 +4,12 @@
   max-height: 600px;
   overflow: hidden;
 }
+
+@media (width<600px) {
+  .closer__content{
+    display: flex;
+    flex-direction: column;
+    max-height: none;
+  }
+  
+}

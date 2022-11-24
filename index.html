@@ -6,8 +6,8 @@
     <link rel="shortcut icon" href="./images/page-icon.ico">
     <meta name="description" content="Sinergia entre comunidad de Mexico y Estados unidos post pandemia">
     <meta name="keywords" content="hackaton, html, css, flexbox, grid, practicum, JavaScrip">
-    <meta name="author" content="">
-    <title>Mex-US-post-Covid</title>
+    <meta name="author" content="Skynet Group">
+    <title>Nuestras vidas post-pandemia</title>
     <link rel="stylesheet" href="./page/index.css">
   </head>
   <body>
@@ -17,6 +17,7 @@
           <h1 class="header__title">Nuestras vidas post-pandemia</h1>
           <h2 class="header__subtitle">Sinergia entre paises hermanos para la recuperación de la Sociedad</h2>
             <div class="header__slider">
+              <p class="header__credit">foto: Scazon</p>
               <img src="./images/header/placa-fronteriza.jpg" alt="placa fronteriza Mex-US" class="header__slider-image fade">
             </div>
             <div class="header__slider">
@@ -28,7 +29,6 @@
               <img src="./images/header/travis-yewell-california.jpg" alt="venice beach" class="header__slider-image fade">
             </div>
       </header>
-
 
       <section class="before">
         <h2 class="before__title">La vida antes de la pandemia</h2>
@@ -42,30 +42,29 @@
               <p class="before__text">Mucho del trabajo se realizaba en lugares con mucha gente, para ahorrar espacio y 
                 tener al personal bajo supervisión la mayor parte del tiempo.</p>
               <p class="before__credit">foto: Alex Kotliarskyi</p>
-              <img src="./images/before/alex-kotliarskyi-officework.jpg" alt="before-pic" class="before__images">
+              <img id="slide-img" src="./images/before/alex-kotliarskyi-officework.jpg" alt="before-pic" class="before__images">
             </div>
 
             <div class="before__content">
               <p class="before__text">Antes de la pandemia a pesar de cualquier riesgo a la salud ya 
                 existente la gente utilizaba el mínimo de protección.</p>
               <p class="before__credit">foto: Randy Fath</p>
-              <img src="./images/before/randy-fath-construction.jpg" alt="before-pic" class="before__images">
+              <img id="slide-img" src="./images/before/randy-fath-construction.jpg" alt="before-pic" class="before__images">
             </div>
           </div>
 
         </div>
       </section>
 
-
       <section class="during">
         <h2 class="during__title">La vida durante la pandemia</h2>
 
         <div class="during__button during__button_pos_left">
-          <button class="flag flag_country_mex" id="lam" value="1">
+          <button class="flag flag_country_mex" id="lam" value=1>
         </div>
 
         <div class="during__button during__button_pos_right">
-          <button class="flag flag_country_usa" id="eua" value="2">
+          <button class="flag flag_country_usa" id="eua" value=2>
         </div>
 
         <!-- Mexico sliders -->
@@ -79,24 +78,24 @@
               <p class="during__text">El servicio de comidas en las zonas públicas se volvió un lugar con 
                 estrictos protocolos de seguridad y aforos reducidos.</p>
               <p class="during__credit">foto: Angelica Escobar</p>
-              <img src="./images/during/angelica escobar-comedor.jpg" alt="during-pic" class="during__images">
+              <img id="slide-img" src="./images/during/angelica escobar-comedor.jpg" alt="during-pic" class="during__images">
             </div>
             <div class="during__content ">
               <p class="during__text">La mayoría de la población optó por el uso de aplicaciones para el 
                 servicio de comida a domicilio, en especial los que trabajaban en casa.</p>
               <p class="during__credit">foto: Cardmapr NL</p>
-              <img src="./images/during/cardmapr-nl-servicio de comida.jpg" alt="during-pic" class="during__images">
+              <img id="slide-img" src="./images/during/cardmapr-nl-servicio de comida.jpg" alt="during-pic" class="during__images">
             </div>
             <div class="during__content ">
               <p class="during__text">Surgió muchos emprendimientos artesanales, por ejemplo, la venta de pan casero por internet.</p>
               <p class="during__credit">foto: Sandi Benedicta</p>
-              <img src="./images/during/sandi-benedicta-bakery.jpg" alt="during-pic" class="during__images">
+              <img id="slide-img" src="./images/during/sandi-benedicta-bakery.jpg" alt="during-pic" class="during__images">
             </div>
             <div class="during__content ">
               <p class="during__text">El seguimiento de los protocolos de seguridad optó por acostumbrar a la población 
                 con mejores prácticas de higiene y cuidados de la salud.</p>
               <p class="during__credit">foto: Tai S.</p>
-              <img src="./images/during/tai-s-captures-protocolo.jpg" alt="during-pic" class="during__images">
+              <img id="slide-img" src="./images/during/tai-s-captures-protocolo.jpg" alt="during-pic" class="during__images">
             </div>
 
           </div>
@@ -104,7 +103,7 @@
         </div>
 
         <!-- USA sliders -->
-        <div id="usa" class="slider">
+        <div id="usa" class="slider slider_inactive">
 
           <button id="prev-btn" name="us" class="slider__button slider__button-prev">&#10094</button>
           <button id="next-btn" name="us" class="slider__button slider__button-next">&#10095</button>
@@ -114,25 +113,25 @@
               <p class="during__text">El uso del dinero en físico se redujo en gran medida para optar solo por la moneda 
                 electrónica como medida de higiene y cuidados de la salud</p>
               <p class="during__credit">foto: Alexander Mils</p>
-              <img src="./images/during/alexander-mils-money.jpg" alt="during-pic" class="during__images">
+              <img id="slide-img" src="./images/during/alexander-mils-money.jpg" alt="during-pic" class="during__images">
             </div>
             <div class="during__content ">
               <p class="during__text">La necesidad de nuevas contrataciones aumentó en puestos de trabajo que se ajustaran a labores de teletrabajo</p>
               <p class="during__credit">foto: Ernie Journeys</p>
-              <img src="./images/during/ernie-journeys-hiring.jpg" alt="during-pic" class="during__images">
+              <img id="slide-img" src="./images/during/ernie-journeys-hiring.jpg" alt="during-pic" class="during__images">
             </div>
             <div class="during__content ">
-              <p class="during__text">La pandemia no impidió un riesgo en su economía. Gran parte de la población siguió 
+              <p class="during__text during__text_long">La pandemia no impidió un riesgo en su economía. Gran parte de la población siguió 
                 con sus actividades algunos precavidos con los protocolos de seguridad, otros seguían sin creer en 
                 la existencia de la pandemia.</p>
               <p class="during__credit">foto: Gabriella Clare</p>
-              <img src="./images/during/gabriella-clare-marino--durante pandemia.jpg" alt="during-pic" class="during__images">
+              <img id="slide-img" src="./images/during/gabriella-clare-marino--durante pandemia.jpg" alt="during-pic" class="during__images">
             </div>
             <div class="during__content ">
-              <p class="during__text">Muchos ciudadanos no estuvieron de acuerdo con los protocolos de seguridad debido 
+              <p class="during__text during__text_long">Muchos ciudadanos no estuvieron de acuerdo con los protocolos de seguridad debido 
                 a la desinformación o a la no creencia de la pandemia</p>
               <p class="during__credit">foto: Travis Spradling</p>
-              <img src="./images/during/travis spradling maskless.jpg" alt="during-pic" class="during__images">
+              <img id="slide-img" src="./images/during/travis spradling maskless.jpg" alt="during-pic" class="during__images">
             </div>
 
           </div>
@@ -142,92 +141,89 @@
       </section>
 
       <section class="after">
-        <h2 class="after__title">La vida post-vacuna o después de la pandemia</h2>
+        <h2 class="after__title">La vida después de la pandemia</h2>
 
         <div class="after__button after__button_pos_left">
-          <button class="flag flag_country_mex" id="lam">
+          <button class="flag flag_country_mex" id="lam" value=3>
         </div>
 
         <div class="after__button after__button_pos_right">
-          <button class="flag flag_country_usa" id="usa">
+          <button class="flag flag_country_usa" id="eua" value=4>
         </div>
 
         <!-- Mexico sliders -->
-        <div class="slider">
+        <div id="mexico" class="slider">
 
           <button id="prev-btn" class="slider__button slider__button-prev">&#10094</button>
           <button id="next-btn" class="slider__button slider__button-next">&#10095</button>
           <div class="slider__area">
 
-            <div class="after__content fade">
-              <p class="after__text">En lo que podriamos llamar la "Post-pandemia"o "Post-vacuna", la vida lentamente ha vuelto a una cierta "normalidad", hay un retorno al trabajo presencial; hay gente que se sigue cuidando y usando cubrebocas y otras que dieron el Covid por superado.</p>
+            <div class="after__content ">
+              <p class="after__text">En la "Post-pandemia"o "Post-vacuna", la vida lentamente vuele a una cierta "normalidad", retornando al trabajo presencial, parte de la población que se preocupa por sus cuidando de higiene y salud mantienen el uso del cubrebocas y otros que dieron el COVID por superado.</p>
               <p class="after__credit">Foto: El Universal</p>
-              <img src="./images/after/by-el universal---gente-nl-sin-cubrebocas.jpg" alt="sin cubrebocas" class="after__images">
+              <img id="slide-img" src="./images/after/by-el universal---gente-nl-sin-cubrebocas.jpg" alt="sin cubrebocas" class="after__images">
             </div>
 
-            <div class="after__content fade">
-              <p class="after__text">Pero muchas compañias han optado por mantener el trabajo en casa; no toda la poblacion ha optado por la vacuna, así, a modo de cuidado, quizá se le da una mejor calidad de vida y trabajo a las personas y se ahorra en recursos.</p>
+            <div class="after__content ">
+              <p class="after__text">Muchas compañías han optado por mantener el teletrabajo, a modo de comodidad y ahorro en los recursos para las empresas, dando una mejor calidad de vida y accesibilidad a muchas personas en sus labores.</p>
               <p class="after__credit">Foto: Arthur Lambillotte</p>
-              <img src="./images/after/arthur-lambillotte-homeoffice.jpg" alt="HOMEOFFICE" class="after__images">
+              <img id="slide-img" src="./images/after/arthur-lambillotte-homeoffice.jpg" alt="HOMEOFFICE" class="after__images">
             </div>
 
-            <div class="after__content fade">
-              <p class="after__text">La pandemia también ha generado nuevos tipos de trabajo y contenido debido a los confinamientos, como por ejemplo el rubro del streaming, en el cual surgieron miles de nuevos podcasters a nivel mundial, que difunden su material por distintas plataformas y redes sociales, las que han crecido desde un 20 a un 47%.</p>
+            <div class="after__content ">
+              <p class="after__text">Se generaron nuevos tipos de trabajo debido a los confinamientos, por ejemplo, labores como el streaming, en donde surgen miles de nuevos podcasters a nivel mundial que difundan su material por distintas plataformas y redes sociales. Aumentan de un 20% a un 47% los creadores de contenido.</p>
               <p class="after__credit">Foto: David Chang</p>
-              <img src="./images/after/david-chang-kit-streamer.jpg" alt="podcaster" class="after__images">
+              <img id="slide-img" src="./images/after/david-chang-kit-streamer.jpg" alt="podcaster" class="after__images">
             </div>
             
-            <div class="after__content fade">
+            <div class="after__content ">
               <p class="after__text">Aunque hay trabajos y servicios escenciales que siempre necesitarán mano de obra presencial, cuyos trabajadores siempre estarán en riesgo de contagio, lo que ya forma parte de la nueva normalidad de la sociedad.</p>
               <p class="after__credit">Foto: Mika Baumeister</p>
-              <img src="./images/after/mika-baumeister-trabajando.jpg" alt="trabajadores de la construccion" class="after__images">
+              <img id="slide-img" src="./images/after/mika-baumeister-trabajando.jpg" alt="trabajadores de la construccion" class="after__images">
             </div>
+          </div>
         </div>
           
         <!-- USA sliders -->
-        <div class="slider">
+        <div id="usa" class="slider slider_inactive">
 
           <button id="prev-btn" class="slider__button slider__button-prev">&#10094</button>
           <button id="next-btn" class="slider__button slider__button-next">&#10095</button>
           <div class="slider__area">
 
-            <div class="after__content fade">
-              <p class="after__text">En EE.UU. la realidad no es tan diferente, sólo que los estadounidenses liberaron de las restriciones antes que México, si es que realmente las respetaron tanto alguna vez, ya en Junio del 2021 se liberó el uso de mascarillas, y rubros los restaurantes y bares pudieron habilitar el aforo para recibir a mas personas.</p>
+            <div class="after__content ">
+              <p class="after__text">En EE.UU. se liberan las restricciones antes que México, gran parte de la población no mantenía respeto a las mismas. En junio del 2021 se libera el uso de mascarillas y se permite mayor aforo de personas en los bares y restaurantes.</p>
               <p class="after__credit">Foto: Drae Trounce</p>
-              <img src="./images/after/Drae-Trounce-barman.jpg" alt="barman" class="after__images">
+              <img id="slide-img" src="./images/after/Drae-Trounce-barman.jpg" alt="barman" class="after__images">
             </div>
             
-            <div class="after__content fade">
-              <p class="after__text">Grandes conglomeraciones de gente se sucedieron inmediatamente, como si el covid ya no existiera en absoluto desde mediados del 2021, y ya en 2022 todos los festivales artisticos estan de vuelta</p>
+            <div class="after__content ">
+              <p class="after__text">Se presencia grandes conglomeraciones de personas que surgieron inmediatamente, como si el virus ya no existiera en absoluto. Desde mediados del 2021 y hasta la fecha han retornado los festivales y los conciertos artísticos.</p>
               <p class="after__credit">Foto: Afershock-Fest</p>
-              <img src="./images/after/aftershock-fest-croud2.jpg" alt="multitud" class="after__images">
+              <img id="slide-img" src="./images/after/aftershock-fest-croud2.jpg" alt="multitud" class="after__images">
             </div>
             
-            <div class="after__content fade">
-              <p class="after__text">Pero no todo es color de rosa, debido al "estímulo" que el gobierno de EE.UU. dio a sus ciudadanos, y una parte de la poblacion aún temerosa del Covid, muchas empresas, cadenas de restaurantes y más negocios no han podido funcionar bien por falta de personal.</p>
+            <div class="after__content ">
+              <p class="after__text">Pero no todo es color de rosa, debido al "estímulo" que el gobierno de EE.UU. dio a sus ciudadanos, y una parte de la poblacion aún temerosa del COVID, muchas empresas, cadenas de restaurantes y más negocios no han podido funcionar bien por falta de personal.</p>
               <p class="after__credit">Foto: Nathan Dumlao</p>
-              <img src="./images/after/nathan-dumlao-help wanted.jpg" alt="help-wanted" class="after__images">
+              <img id="slide-img" src="./images/after/nathan-dumlao-help wanted.jpg" alt="help-wanted" class="after__images">
             </div>
 
-            <div class="after__content fade">
-              <p class="after__text">Y lamentablemente éstos factores, sumados a la crisis e inflación que la pandemia ha dejado a nivel mundial, ha aumentado la cantidad de gente en condicion de calle en EE.UU. los cuales se pueden ver deambulando en todas las ciudades del país.</p>
+            <div class="after__content ">
+              <p class="after__text">Lamentablemente la crisis económica e inflación que la postpandemia ha dejado a nivel mundial, un aumento en la cantidad de gente en condición de pobreza, por ejemplo, en EE.UU. se precia una mayor población deambulando en todas las ciudades del país.</p>
               <p class="after__credit">Foto: Gabrielle Laurie</p>
-              <img src="./images/after/Gabrielle-Laurie-homeless.jpg" alt="homeless-people" class="after__images">
+              <img id="slide-img" src="./images/after/Gabrielle-Laurie-homeless.jpg" alt="homeless-people" class="after__images">
             </div>
           </div>
         </div>
 
       </section>
-      
-
-
-
+     
       <section class="closer">
         <h2 class="closer__title">y a tí ¿cómo te cambio la pandemia?</h2>
         <div class="closer__content">
           <h3 class="closer__subtitle">¿qué ideas o soluciones han surgido en tu ciudad/país? ¿qué otras soluciones has visto o propondrias?
           </h3>
-
           <div class="closer__card-area">
             <div class="closer__card-slide">
               <div class="closer__card">
@@ -256,15 +252,20 @@
             </div>
           </div>
         </div>
-
       </section>
 
-
-
+      <footer class="footer">
+        <h2 class="footer__title">Nuestras Vidas Post-Pandemia</h2>
+        <div class="footer__coders">
+          <h4 class="footer__participants">Coders:</h4>
+          <p class="footer__member">Gonzalez Dupuy David E.</p>
+          <p class="footer__member">Rodríguez Vargas Pablo César</p>
+          <p class="footer__member">Villegas Guzmán Aldo</p>
+        </div>
+        
+      </footer>
 
     </div>
-
-
     <script src="./page/index.js"></script>
   </body>
 

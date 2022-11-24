@@ -1,8 +1,21 @@
-.before__credit{
+.before__credit {
   position: absolute;
   bottom: 0px;
   right: 5px;
-  background-color: rgba(255, 255, 255, .6);
+  background-color: rgba(255, 255, 255, 0.6);
   z-index: 2;
   padding: 5px;
+}
+
+@media (width<600px) {
+  .before__credit {
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 1rem;
+  }
+}
+
+@media (width<500px) {
+  .before__credit {
+    font-size: .7rem;
+  } 
 }

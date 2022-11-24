@@ -1,4 +1,17 @@
 .after__button_pos_left {
   top: 23px;
   left: 0;
+  border-radius: 0 50% 50% 0;
+}
+
+@media (width<650px) {
+  .after__button_pos_left {
+    top: 35px;
+  }
+}
+
+@media (width<530px) {
+  .after__button_pos_left {
+    top: 20px;
+  }
 }

@@ -1,11 +1,40 @@
 .after__text {
-  padding: 25% 25px 0;
+  padding: 15% 25px 0;
   max-width: 300px;
   background-color: rgba(255, 255, 255, 0.6);
   position: absolute;
   z-index: 2;
-  height: 800px;
+  height: 100%;
   font-size: 1.4rem;
   line-height: 1.6;
   font-weight: 400;
+}
+
+@media (width<1200px) {
+  .after__text {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+}
+
+@media (width<600px) {
+  .after__text {
+    font-size: 1.2rem;
+    max-width: none;
+    width: 100%;
+    padding: 18% 25px 0;
+    text-align: center;
+  }
+}
+
+@media (width<450px) {
+  .after__text{
+    font-size: 1rem;
+  }
+}
+
+@media (width<390px) {
+  .after__text{
+    font-size: .8rem;
+  }
 }

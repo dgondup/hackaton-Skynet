@@ -1,6 +1,6 @@
 .header {
+  padding-top: 50px;
   background-color: steelblue;
-  height: auto;
   max-width: 1200px;
   overflow: hidden;
   margin: auto;
@@ -10,9 +10,51 @@
   grid-template-areas:
   "title slider" 
   "subtitle slider";
-  /* background-image: url('../../../images/header/MexicoUS.jpg');
-  background-position: left;
-  background-size: 50%;
-  background-repeat: no-repeat; */
   text-align: center;
+}
+
+@media screen and (width < 1120px) {
+  .header {
+    grid-template-areas:
+      "title  slider"  
+      "subtitle slider";
+    grid-template-rows: 3fr 1fr;
+  }
+  
+}
+
+@media screen and (width < 958px) {
+  .header {
+    grid-template-columns: auto;
+    grid-template-areas:
+      "title   " 
+      "subtitle" 
+      "slider  ";
+    grid-template-rows: 0fr 0.1fr 1fr;
+  }
+  
+}
+
+@media screen and (width < 700px) {
+  .header {
+    grid-template-columns: auto;
+    grid-template-areas:
+      "title   " 
+      "subtitle" 
+      "slider  ";
+    grid-template-rows: 0.5fr 0.1fr 1fr;
+  }
+  
+}
+
+@media screen and (width < 400px) {
+  .header {
+    grid-template-columns: auto;
+    grid-template-areas:
+      "title   " 
+      "subtitle" 
+      "slider  ";
+    grid-template-rows: 0.5fr 0.3fr;
+  }
+  
 }

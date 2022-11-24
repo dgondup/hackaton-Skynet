@@ -7,7 +7,11 @@ const nxtBtn = [...document.querySelectorAll("#next-btn")];
 const prvBtn = [...document.querySelectorAll("#prev-btn")];
 const scrollerArea = [...document.querySelectorAll(".slider__area")];
 
+const scrolledImage = [...document.querySelectorAll("#slide-img")];
+
 let currentSlide = 0;
+
+let imageWidth;
 
 const transitionSlides = () => {
   for (let i = 0; i < slides.length; i++) {
@@ -22,28 +26,13 @@ const transitionSlides = () => {
 
 setInterval(transitionSlides, 3500);
 
-scrollerArea.forEach((section, i) => {
-  let sliderDimensions = section.getBoundingClientRect();
-  let sliderWidth = sliderDimensions.width;
-
-  prvBtn[i].addEventListener("click", (evt) => {
-    section.scrollLeft -= sliderWidth;
-    console.log(evt.target);
-  });
-
-  nxtBtn[i].addEventListener("click", (evt) => {
-    section.scrollLeft += sliderWidth;
-    console.log(evt.target);
-  });
-});
+console.log(scrollerArea);
 
 const selectCountry = (id, loc) => {
-  console.log(countryArea);
-
+  console.log(id, loc);
   if (id === "lam") {
-    let po = loc + 1;
     countryArea[loc].classList.remove("slider_inactive");
-    countryArea[2].classList.add("slider_inactive");
+    countryArea[loc + 1].classList.add("slider_inactive");
   }
   if (id === "eua") {
     countryArea[loc - 1].classList.add("slider_inactive");
@@ -56,7 +45,27 @@ for (i = 0; i < countryBtn.length; i++) {
   countryBtn[i].addEventListener("click", (i) => {
     console.log(i.target);
     let country = i.target.id;
-    let loc = i.target.value;
+    let loc = parseFloat(i.target.value);
     selectCountry(country, loc);
   });
 }
+
+scrollerArea.forEach((section, i) => {
+  prvBtn[i].addEventListener("click", () => {
+    section.scrollLeft -= imageWidth;
+  });
+
+  nxtBtn[i].addEventListener("click", () => {
+    section.scrollLeft += imageWidth;
+  });
+});
+
+const windowResize = () => {
+  scrolledImage.forEach((img) => {
+    img.width = window.innerWidth - 19;
+    console.log(img);
+    return (imageWidth = img.width);
+  });
+};
+
+window.addEventListener("resize", windowResize);

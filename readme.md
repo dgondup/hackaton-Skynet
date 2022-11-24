@@ -30,7 +30,7 @@ Lista de tecnologias utilizada en el proyecto:
 
 - **HTML**: uso de semánticas, atributos y elaboración de clases siguiendo la metodología BEM
 - **CSS**: uso de Flex y Grid y elaboración de estructuras de archivos siguiendo la metodología BEM
-- **JavaScript**: elaboración de algoritmos e implementación de Sliders
+- **JavaScript**: Utilización de funciones para implementar sliders con intervalos de tiempo y con el accionamiento de botones
 
 ## Figma
 

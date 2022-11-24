@@ -3,5 +3,5 @@
   grid-area: slider;
   background-color: #402a2a;
   position: relative;
-  height: max-content;
+  /* height: max-content; */
 }

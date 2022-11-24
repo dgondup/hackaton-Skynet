@@ -15,9 +15,6 @@
 @import url(../blocks/before/__images/before__images.css);
 @import url(../blocks/before/__text/before__text.css);
 @import url(../blocks/before/__title/before__title.css);
-@import url(../blocks/before/__button/before__button-next.css);
-@import url(../blocks/before/__button/before__button-prev.css);
-@import url(../blocks/before/__button/before__button.css);
 @import url(../blocks/before/__slider/before__slider.css);
 
 @import url(../blocks/slider/slider.css);
@@ -51,6 +48,7 @@
 @import url(../blocks/during/__images/during__images.css);
 @import url(../blocks/during/__slider/during__slider.css);
 @import url(../blocks/during/__text/during__text.css);
+@import url(../blocks/during/__text/during__text_long.css);
 @import url(../blocks/during/__title/during__title.css);
 @import url(../blocks/during/__button/during__button.css);
 @import url(../blocks/during/__button/_pos/during__button_pos_left.css);

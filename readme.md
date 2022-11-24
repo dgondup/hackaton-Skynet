@@ -30,7 +30,7 @@ Lista de tecnologias utilizada en el proyecto:
 
 - **HTML**: uso de semánticas, atributos y elaboración de clases siguiendo la metodología BEM
 - **CSS**: uso de Flex y Grid y elaboración de estructuras de archivos siguiendo la metodología BEM
-- **JavaScript**: elaboración de algoritmos e implementación de Sliders
+- **JavaScript**: Utilización de funciones para implementar sliders con intervalos de tiempo y con el accionamiento de botones
 
 ## Figma
 
@@ -50,7 +50,7 @@ https://dgondup.github.io/hackaton-Skynet/
 
 ---
 
-El presente proyecto es elaborado por el team work _SKYNET_ conformado por los programadores:
+El presente proyecto es elaborado por el equipo _SKYNET_ conformado por los programadores:
 
 - David E. González Dupuy
 - Pablo César Rodríguez Vargas

@@ -51,6 +51,7 @@
 @import url(../blocks/during/__images/during__images.css);
 @import url(../blocks/during/__slider/during__slider.css);
 @import url(../blocks/during/__text/during__text.css);
+@import url(../blocks/during/__text/during__text_long.css);
 @import url(../blocks/during/__title/during__title.css);
 @import url(../blocks/during/__button/during__button.css);
 @import url(../blocks/during/__button/_pos/during__button_pos_left.css);

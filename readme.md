@@ -50,7 +50,7 @@ https://dgondup.github.io/hackaton-Skynet/
 
 ---
 
-El presente proyecto es elaborado por el team work _SKYNET_ conformado por los programadores:
+El presente proyecto es elaborado por el equipo _SKYNET_ conformado por los programadores:
 
 - David E. González Dupuy
 - Pablo César Rodríguez Vargas

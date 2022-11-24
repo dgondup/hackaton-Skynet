@@ -26,10 +26,7 @@ const transitionSlides = () => {
 
 setInterval(transitionSlides, 3500);
 
-console.log(scrollerArea);
-
 const selectCountry = (id, loc) => {
-  console.log(id, loc);
   if (id === "lam") {
     countryArea[loc].classList.remove("slider_inactive");
     countryArea[loc + 1].classList.add("slider_inactive");
@@ -40,10 +37,8 @@ const selectCountry = (id, loc) => {
   }
 };
 
-console.log(countryBtn);
 for (i = 0; i < countryBtn.length; i++) {
   countryBtn[i].addEventListener("click", (i) => {
-    console.log(i.target);
     let country = i.target.id;
     let loc = parseFloat(i.target.value);
     selectCountry(country, loc);
@@ -63,7 +58,6 @@ scrollerArea.forEach((section, i) => {
 const windowResize = () => {
   scrolledImage.forEach((img) => {
     img.width = window.innerWidth - 19;
-    console.log(img);
     return (imageWidth = img.width);
   });
 };

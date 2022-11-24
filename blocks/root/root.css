@@ -5,9 +5,9 @@
 }
 
 .root {
-  background-image: url(../../images/cdc-fondo.jpg);
-  background-position: center;
-  background-size: contain;
+  background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+  /*background-position: center;
+  background-size: contain;*/
   font-family: 'Lato';
   font-weight: 400;
 }

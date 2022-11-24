@@ -1,5 +1,5 @@
 .closer{
-  background-color: steelblue;
+  background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
   max-width: 1200px;
   height: auto;
   overflow: hidden;
